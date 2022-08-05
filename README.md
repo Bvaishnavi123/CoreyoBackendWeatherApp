@@ -2,6 +2,10 @@
 
 This sample project demonstrates how to set up a user authentication  using JSON Web Tokens. There are several endpoints exposed in the sample, including user login and signup, along with an example of a protected resource.
 
+## POSTMAN COLLECTION
+* https://www.getpostman.com/collections/c14b765dc6a608508d2f
+
+
 
 ## Installation and Running the App
 
@@ -118,5 +122,6 @@ ocurrency-owners-for-unpaid-taxes/"
 .
 ]
 }
+
 
 
