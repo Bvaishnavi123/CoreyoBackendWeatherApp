@@ -5,6 +5,9 @@ This sample project demonstrates how to set up a user authentication  using JSON
 ## POSTMAN COLLECTION
 * https://www.getpostman.com/collections/c14b765dc6a608508d2f
 
+## VALIDATION
+
+* I have added proper validation for all the parameters.
 
 
 ## Installation and Running the App
