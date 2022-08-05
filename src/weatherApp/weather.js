@@ -3,7 +3,7 @@ const express = require("express");
 var request = require("request");
 const router = express.Router();
 
-router.post("/weather", function (req, res, next) {
+router.post("", function (req, res, next) {
   url =
     "https://api.openweathermap.org/data/2.5/forecast?q=Bengaluru&appid=53941fa98e9862077147a68af131b707&cnt=5";
 

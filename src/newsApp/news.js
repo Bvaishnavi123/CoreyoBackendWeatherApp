@@ -1,8 +1,9 @@
 const express = require("express");
 const axios = require("axios");
 const newsr = express.Router();
+const authenticate = require("../middleware/authentication")
 
-newsr.get("/news", async (req, res) => {
+newsr.get("", async (req, res) => {
   try {
     var url =
       `http://newsapi.org/v2/top-headlines?` +
@@ -31,7 +32,7 @@ newsr.get("/news", async (req, res) => {
   }
 });
 
-newsr.post("/news", async (req, res) => {
+newsr.post("", authenticate,   async (req, res) => {
   const search_news = req.body.search;
 
   try {
